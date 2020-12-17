@@ -16,7 +16,6 @@ describe('#isRestrictedHour', () => {
 
 
 describe('#isRestrictedHour', () => {
-
   test('should return true after pass a restricted hour', () => {
     expect(isRestrictedHour('07:00')).toBeTruthy();
   });

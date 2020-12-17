@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 class Car {
   constructor(plate) {
     this._plate = plate;
