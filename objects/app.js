@@ -39,8 +39,8 @@
 //   }
 // }
 
-import Car from './car';
-import Predictor from './predictor';
+import Car from './car.js';
+import Predictor from './predictor.js';
 
 const form = document.querySelector('#form');
 
