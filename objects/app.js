@@ -20,5 +20,5 @@ form.addEventListener('submit', (e) => {
   const car = new Car(+lastPlateNumber);
   const predictor = new Predictor(car, day, hour);
   const carNotRoad = predictor.isRestrictedDay() && predictor.isRestrictedHour();
-  result.innerHTML = carNotRoad ? 'Time to take the bus, or find a carpool or better yet ride your bike' : 'Check if you have gas 🚗';
+  result.innerHTML = carNotRoad ? 'NOT ROAD: Time to take the bus, or find a carpool or better yet ride your bike' : 'ROAD: Check if you have gas 🚗';
 });
