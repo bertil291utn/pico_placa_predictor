@@ -6,7 +6,7 @@ export default class Predictor {
     this._hour = hour;
   }
 
-  get isRestrictedDay() {
+  isRestrictedDay() {
     if (this._day === 6 || this._day === 0) return false;
     const restrictions = {
       1: [1, 2],
@@ -18,7 +18,7 @@ export default class Predictor {
     return restrictions[this._day].includes(this._car.plate);
   }
 
-  get isRestrictedHour() {
+  isRestrictedHour() {
     return (this._hour >= '07:00' && this._hour <= '09:30') || (this._hour >= '16:00' && this._hour <= '19:30');
   }
 }
