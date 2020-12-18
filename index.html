@@ -5,21 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pico y placa predictor</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <form id="form">
-      <label for="plate">Plate:</label>
-      <input type="text" id="plate"><br>
-      <label for="date">Date:</label>
-      <input type="text" id="date"><small>YYYY/MM/DD</small><br>
-      <label for="hour">Hour:</label>
-      <input type="time" id="hour"> <br>
-      <input type="submit" value="predictor">
-    </form>
+    <div class="left-side">
+      <h4>This pico y placa restrictions</h4>
+      <img
+        src="https://www.eltelegrafo.com.ec/images/Fotos_ElTelegrafo/EdicionImpresa/2019/Mayo/23/infografia/REG_pico_placa-01.jpg?ver=1558580886558"
+        alt="pico-placa" width="500">
+    </div>
+    <div class="righ-side">
+      <form id="form">
+        <label for="plate">Plate:</label>
+        <input type="text" id="plate"><br>
+        <label for="date">Date:</label>
+        <input type="text" id="date"><small>YYYY/MM/DD</small><br>
+        <label for="hour">Hour:</label>
+        <input type="time" id="hour"> <br>
+        <input type="submit" value="predictor">
+      </form>
 
-    <div id="result"></div>
+      <div id="result"></div>
+    </div>
   </div>
 
   <script type="module" src="./objects/app.js"></script>

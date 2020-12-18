@@ -1,44 +1,4 @@
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable max-classes-per-file */
-// class Car {
-//   constructor(plate) {
-//     this._plate = plate;
-//   }
-
-//   get plate() {
-//     return this._plate;
-//   }
-
-//   set plate(value) {
-//     this._plate = value;
-//   }
-// }
-
-
-// class Predictor {
-//   constructor(car, day, hour) {
-//     this._car = car;
-//     this._day = day;
-//     this._hour = hour;
-//   }
-
-//   isRestrictedDay() {
-//     if (this._day === 6 || this._day === 0) return false;
-//     const restrictions = {
-//       1: [1, 2],
-//       2: [3, 4],
-//       3: [5, 6],
-//       4: [7, 8],
-//       5: [9, 0],
-//     };
-//     return restrictions[this._day].includes(this._car.plate);
-//   }
-
-//   isRestrictedHour() {
-//     return (this._hour >= '07:00' && this._hour <= '09:30') || (this._hour >= '16:00' && this._hour <= '19:30');
-//   }
-// }
-
+/* eslint-disable import/extensions */
 import Car from './car.js';
 import Predictor from './predictor.js';
 
