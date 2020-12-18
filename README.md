@@ -30,6 +30,10 @@ Once you have cloned this project
 
 ## Test
 Using Jest 
+- There's already a script on `package.json` file to run the tests
+```
+npm run test
+```
 ## Deployed 
 
 Deployed on GitHubPages  
