@@ -16,7 +16,7 @@ This is a predictor pico y placa, that allows to know when and at which time you
 
 [:globe_with_meridians::computer:](https://bertil291utn.github.io/pico_placa_predictor/)
 
-*Note: if you try to run on your machine it;s going to throw a browser [error](https://user-images.githubusercontent.com/24902525/102561701-5b449400-40a3-11eb-9bd1-9067d70e5690.png), that's why is online**
+*Note: at the time to run on local machine, it's going to throw a browser [error](https://user-images.githubusercontent.com/24902525/102561701-5b449400-40a3-11eb-9bd1-9067d70e5690.png), that's why is online**
 ## Getting Started
 
 In order to start with this project you need the next:
