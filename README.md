@@ -1,7 +1,7 @@
 
 # Pico y placa in Quito predictor
 
-This is a predictor pico y placa, that allows to know when and at which time you're able to road with a car 
+This is a predictor pico y placa, that allows to know when and at which time you're able to road with a car. I took all the restrictions information from this [source](https://www.eltelegrafo.com.ec/images/Fotos_ElTelegrafo/EdicionImpresa/2019/Mayo/23/infografia/REG_pico_placa-01.jpg?ver=1558580886558)
 
 <div style="text-align: center;"><img src="https://user-images.githubusercontent.com/24902525/102561418-a7db9f80-40a2-11eb-9ba2-228846ae2b49.gif" alt="image" style="zoom: 33%;" /></div>
 
