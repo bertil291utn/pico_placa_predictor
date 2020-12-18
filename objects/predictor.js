@@ -1,5 +1,5 @@
 /* eslint-disable no-underscore-dangle */
-class Predictor {
+export default class Predictor {
   constructor(car, day, hour) {
     this._car = car;
     this._day = day;

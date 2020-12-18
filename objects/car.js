@@ -1,5 +1,5 @@
 /* eslint-disable no-underscore-dangle */
-class Car {
+export default class Car {
   constructor(plate) {
     this._plate = plate;
   }
